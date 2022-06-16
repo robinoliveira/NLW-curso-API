@@ -1,0 +1,72 @@
+<style>
+    .container {
+        width: :800px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .value {
+        padding: 10px;
+        background-color: #34eb77;
+        border-radius: 6px;
+        color: #000;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 4pxp;
+
+    }
+
+    .level {
+        display: flex;
+        margin: 10px;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .answers {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+
+
+
+<div class="container">
+    <label>Ola <strong> {{name}}</strong>! Tudo bem </label>
+
+    <h3>{{title}}</h3>
+    <br />
+    <strong>{{description}}</strong>
+
+    <div class="level">
+        <span>Pouco provavel</span>
+        <span>Muito provavel</span>
+    </div>
+
+    <div class="answers">
+        <a class="value" href="{{link}}/1u?={{user_id}}">1</a>
+        <a class="value" href="{{link}}/2u?={{user_id}}">2</a>
+        <a class="value" href="{{link}}/3u?={{user_id}}">3</a>
+        <a class="value" href="{{link}}/4u?={{user_id}}">4</a>
+        <a class="value" href="{{link}}/5u?={{user_id}}">5</a>
+        <a class="value" href="{{link}}/6u?={{user_id}}">6</a>
+        <a class="value" href="{{link}}/7u?={{user_id}}">7</a>
+        <a class="value" href="{{link}}/8u?={{user_id}}">8</a>
+        <a class="value" href="{{link}}/9u?={{user_id}}">9</a>
+        <a class="value" href="{{link}}/10u?={{user_id}}">10</a>
+    </div>
+
+
+
+
+    <br />
+    <br />
+    <strong>Sua opnião é muito importante para nós</strong>
+    <h3>Equipe | <strong>King kiabo</strong></h3>
+
+</div>
